@@ -241,7 +241,7 @@ statManager = DataManager()
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
-train_model = True
+train_model = False
 train_policy = True
 draw_from_model = False
 
